@@ -1,0 +1,52 @@
+1.  Get your **API key** by creating a new app in your [Alchemy Dashboard](https://dashboard.alchemy.com/apps)
+    :::warning
+    Make sure **Ethereum Sepolia** is enabled (new apps are multi-chain and will have this enabled by default)
+    :::
+2.  Create a **new account config** in your [Account Kit Dashboard](https://dashboard.alchemy.com/accounts)
+
+    1.  Apply the config to your app from step 1
+
+        <img
+          src="/images/getting-started/apply-config-to-app.png"
+          alt="apply your the config to the app from the first step"
+          style={{ width: "50%" }}
+        />
+
+    2.  Enable authentication methods you want to support.
+
+        <br />
+        **Email auth**
+
+        If you want to use email auth, toggle on email.
+
+        - Use [http://localhost:3000](http://localhost:3000/)
+          as the “Redirect URL” for testing (Note **http** not https for local testing)
+        - Optionally stylize ✨ the email with your brand color and logo!
+
+        <img
+          src="/images/getting-started/email-auth-setup.png"
+          alt="configure email auth"
+          style={{ width: "50%" }}
+        />
+
+        <br />
+        **Social auth**
+
+        If you want to enable social login, toggle which auth providers
+        you want to support.
+
+        - Add [http://localhost:3000](http://localhost:3000/) as a "whitelisted origin" for testing.
+        - Optionally enter your own OAuth credentials or use our defaults.
+
+          <img
+            src="/images/getting-started/social-auth-setup.png"
+            alt="configure social auth"
+            style={{ width: "50%" }}
+          />
+
+3.  Create config and copy the **API Key**
+    <img
+      src="/images/getting-started/get-api-key.png"
+      alt="how to copy the api key"
+      style={{ width: "50%" }}
+    />
