@@ -27,12 +27,21 @@
   }
 }
 
+.vocs_NavLogo_logoImage {
+  width: 113.1px;
+  height: 25px;
+}
+
 .vocs_DocsLayout_content {
   @apply flex flex-col;
 }
 
 .vocs_Content {
   @apply flex flex-col grow;
+}
+
+.vocs_Sidebar_sectionHeader > .vocs_Sidebar_item {
+  @apply font-semibold;
 }
 
 .bg-clip-text {
